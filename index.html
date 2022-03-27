@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/styles.css"/>
+    <title>Show Me Weather</title>
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d3bce829f3.js" crossorigin="anonymous"></script>
     
+    <div class="container-fluid">
+        <header>
+            <div class="card-body text-center">
+                <h1>Show Me Weather!</h1>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card-body text-center">
+                        <div class="card" style="width: 20rem;">
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2">Enter City Name</h6>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="userInput form-control" placeholder="Search" aria-label="username" aria-describedby="button-addon2"></input>
+                                    <div class="input group-append">
+                                        <button class="searchBtn btn btn-outline-light" type="button" id="button-addon2">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                    <ul class="city-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-5 mr-5">
+                    <div class="current-weather card pb-3 pt-3">
+                        <h5 class="card-title mt-3 text-center">Weather Now</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-5">
+                        <div class="future-weather card pb-5 pl-5">
+                            <h5 class="card-title mt-2 mr-4">Future Weather</h5>
+                            <div class="row">
+                                <div class="col future-one-day"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> 
 </body>
 </html>
