@@ -24,7 +24,7 @@ None
 ## Contributing
 There are no other contributors.
 
-## Creator
+## License
 Created by Jaime Gutierrez
 
 ## Questions
