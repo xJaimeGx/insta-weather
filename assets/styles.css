@@ -1,8 +1,50 @@
 header {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: royalblue;
+    border: 0.3rem solid black;
+    border-radius: 0.8rem;
 }
 
-.searchBtn {
+body, html {
+    height: 100%;
+}
+
+.background {
+    background-image: url("../assets/images/cloud_dreamstime_m_102333020.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-shadow: 0.2rem 0.2rem 0.4rem white;
+    font-size: 5.0rem;
+}
+
+.enter-city, .current-weather, .future-weather {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0.2rem solid black;
+}
+
+.search-btn {
     background-color: royalblue;
+}
+
+h5 {
+    font-size: 2.0rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.futurePopUp {
+    padding: 20px;
+    background-color: royalblue;
+    color: white;
+    float: left;
+    margin: 10px;
+    border: 0.2rem solid black;
 }
